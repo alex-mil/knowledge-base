@@ -13,5 +13,7 @@
 > table projects, :fields => [:name]
 
 `sudo apt-get install libmagickcore-dev libmagickwand-dev` - run this command before installation of RMagick
+
 `mysqldump -u (user, e.g. root) -p(password) (database-name) > ~/(some-name)-dump.sql` - MySQL dump process
+
 `tail -f log/development.log | grep '...'` - output in console relate info from a log
