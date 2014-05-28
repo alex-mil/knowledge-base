@@ -9,4 +9,4 @@ Collection of snippets in Ruby or JavaScript, useful gems and libraries, Tips&am
 - [**Helpful Git commands**](https://github.com/alex-mil/knowledge-base/blob/master/Git%20Commands.md)
 - [**Commands to work and to debug with Pry**](https://github.com/alex-mil/knowledge-base/blob/master/Pry%20Commands.md)
 - [**Tips & Tricks**](https://github.com/alex-mil/knowledge-base/blob/master/Tips%20and%20Tricks.md)
-- [**DevOps for developers. Configure your own server from scratch.](https://github.com/alex-mil/knowledge-base/blob/master/DevOps%20for%20Developers.md)
+- [**DevOps for developers. Configure your own server from scratch.**](https://github.com/alex-mil/knowledge-base/blob/master/DevOps%20for%20Developers.md)
