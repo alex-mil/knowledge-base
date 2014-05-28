@@ -1,4 +1,3 @@
-```ruby
 #######################################
 # Search and Filter Rails Models
 #######################################
@@ -179,4 +178,3 @@ class FixColumnNames < ActiveRecord::Migration
     end
   end
 end
-```
