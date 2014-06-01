@@ -28,7 +28,6 @@ module FindDuplicate
   
   module ClassMethods
     def find_duplicates(field)
-
       field = field.to_sym
       where field => User.select(['count(*)', field]).group(field).having('count(*) > 1').map(&field)
     end
