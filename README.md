@@ -10,3 +10,4 @@ Collection of snippets in Ruby or JavaScript, useful gems and libraries, Tips&am
 - [**Commands to work and to debug with Pry**](https://github.com/alex-mil/knowledge-base/blob/master/pry-commands.md)
 - [**Tips & Tricks**](https://github.com/alex-mil/knowledge-base/blob/master/tips-tricks.md)
 - [**DevOps for developers. Configure your own server from scratch.**](https://github.com/alex-mil/knowledge-base/blob/master/devops-devs.md)
+- [**A sample of .gitignore file**](https://github.com/alex-mil/knowledge-base/blob/master/.gitignore)
