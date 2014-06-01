@@ -1,6 +1,43 @@
-#######################################
-# Search and Filter Rails Models
-#######################################
+###############################################
+# Find duplicate records for specific columns #
+###############################################
+class User < ActiveRecord::Base
+  include FindDuplicate
+end
+
+User.find_duplicates(:token)
+User.duplicate?(:token)
+User.duplicates(:token)
+User.duplicates_with_self(:token)
+
+# module code
+module FindDuplicate
+  extend ActiveSupport::Concern
+  
+  def duplicate?(field)
+    duplicates_with_self(field).count > 1
+  end
+
+  def duplicates(field)
+    duplicates_with_self(field).where('id <> ?', id)
+  end
+
+  def duplicates_with_self(field)
+    self.class.unscoped.where(field => self[field])
+  end
+  
+  module ClassMethods
+    def find_duplicates(field)
+
+      field = field.to_sym
+      where field => User.select(['count(*)', field]).group(field).having('count(*) > 1').map(&field)
+    end
+  end
+end
+
+####################################
+# Search and Filter Rails Models   #
+####################################
 # app/models/concerns/filterable.rb
 module Filterable
   extend ActiveSupport::Concern
