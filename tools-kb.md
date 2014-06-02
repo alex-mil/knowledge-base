@@ -12,6 +12,7 @@
 - [**JsRoutes**](https://github.com/railsware/js-routes) - generates javascript file that defines all Rails named routes as javascript helpers.
 - [**AjaxSubmit**](https://github.com/bogdan/ajaxsubmit) - submit and validate complex forms (with or without nested) via Ajax.
 - [**Cocoon**](https://github.com/nathanvda/cocoon) - makes it easier to handle (add / remove) nested forms.
+- [**REST Client**](https://github.com/rest-client/rest-client) - simple HTTP and REST client for Ruby, inspired by the Sinatra's microframework style of specifying actions: get, put, post, delete.
  
 
 ##### JavaScript
