@@ -13,7 +13,7 @@
 - [**AjaxSubmit**](https://github.com/bogdan/ajaxsubmit) - submit and validate complex forms (with or without nested) via Ajax.
 - [**Cocoon**](https://github.com/nathanvda/cocoon) - makes it easier to handle (add / remove) nested forms.
 - [**REST Client**](https://github.com/rest-client/rest-client) - simple HTTP and REST client for Ruby, inspired by the Sinatra's microframework style of specifying actions: get, put, post, delete.
-- [**https://github.com/42dev/bower-rails**](https://github.com/42dev/bower-rails) - bower support for Rails projects.
+- [**Bower Rails**](https://github.com/42dev/bower-rails) - bower support for Rails projects.
  
 
 ##### JavaScript
