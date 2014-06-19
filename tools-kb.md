@@ -1,8 +1,9 @@
 ##### Ruby on Rails
+- [**OAuth Security Cheatsheet**](https://github.com/homakov/oauthsecurity)
 - [**Jazz hands gem**](https://github.com/nixme/jazz_hands) - an opinionated set of console-related gems and a bit of glue (not worked on ubuntu).
 - [**FiniteMachine gem**](https://github.com/peter-murach/finite_machine) - a minimal finite state machine with a straightforward and intuitive syntax.
-- [**OAuth Security Cheatsheet**](https://github.com/homakov/oauthsecurity)
 - [**Chewy gem**](https://github.com/toptal/chewy) - ODM and wrapper for official Elasticsearch client.
+- [**AttrSearchable gem**](https://github.com/mrkamel/attr_searchable) - extends your ActiveRecord models to support fulltext search engine like queries via simple query strings and hash-based queries. 
 - [**Interactor gem**](https://github.com/collectiveidea/interactor) - a common interface (Service Object) for performing complex interactions in a single request.
 - [**Redactor Rails gem**](https://github.com/SammyLin/redactor-rails) - integrates the Redactor editor with the Rails 3.2 asset pipeline.
 - [**Lurker gem**](https://github.com/razum2um/lurker) - API testing your Rails application.
