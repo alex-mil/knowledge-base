@@ -1,3 +1,27 @@
+##########################################
+# Fix params attributes for nested model #
+##########################################
+class Post < ActiveRecord::Base
+  has_many :comments
+end
+
+class Comment < ActiveRecord::Base
+  belongs_to :post
+end
+...
+# in the Posts controller
+def update
+  params[:comments_attributes] = params.delete(:comments) if params.has_key? :comments
+  # call to update_attributes and whatever else you need to do
+ end
+ # in case of BackboneJS it could be done on client side as well
+ # in your Post model
+toJSON: ->
+  attrs = _.clone(@attributes)
+  attrs.comments_attributes = _.clone(@attributes.comments)
+  delete attrs.comments
+  attrs
+  
 ###############################################
 # Find duplicate records for specific columns #
 ###############################################
