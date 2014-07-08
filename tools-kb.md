@@ -16,6 +16,8 @@
 - [**Bower Rails**](https://github.com/42dev/bower-rails) - bower support for Rails projects.
 - [**JSON Schema Validator**](https://github.com/hoxworth/json-schema) - provides Ruby with an interface for validating JSON objects against a JSON schema.
 - [**Rack-dev-mark**](https://github.com/dtaniwaki/rack-dev-mark) - marks development environment in order to differentiate from production.
+- [**Find Duplicates**](https://github.com/500tech/find_duplicates) - allows you to find duplicate models with same value for a column, e.g.: Find all users with the same first name.
+- [**Acts As Daterange**](https://github.com/500tech/acts_as_daterange) - useful for all models that have (optional) start date and end date (e.g. coupons, campaigns, orders, events, etc.)
 
 
 ##### JavaScript
