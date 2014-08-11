@@ -1,3 +1,25 @@
+##################################
+# Early return from a controller #
+##################################
+class Controller
+  def show
+    verify_order; return if performed? # test whether render or redirect already happended
+    # even more code over there ...
+  end
+
+  private
+
+  def verify_order
+    unless @order.awaiting_payment? || @order.failed?
+      redirect_to edit_order_path(@order) and return
+    end
+
+    if invalid_order?
+      redirect_to tickets_path(@order) and return
+    end
+  end
+end
+
 ##########################################
 # Fix params attributes for nested model #
 ##########################################
