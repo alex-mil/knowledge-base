@@ -3,7 +3,7 @@
 ##################################
 class Controller
   def show
-    verify_order; return if performed? # test whether render or redirect already happended
+    verify_order; return if performed? # test whether render or redirect already happened
     # even more code over there ...
   end
 
