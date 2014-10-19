@@ -1,3 +1,21 @@
+######################
+# with_options block #
+######################
+class User < ActiveRecord::Base
+ with_options if: :is_admin? do |admin|
+    admin.validates :name, presence: true
+    admin.validates :email, presence: true
+  end
+end
+
+# or in Rails 4.2
+class User < ActiveRecord::Base
+ with_options if: :is_admin?
+    validates :name, presence: true
+    validates :email, presence: true
+  end
+end
+
 ##################################
 # Early return from a controller #
 ##################################
