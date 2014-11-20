@@ -1,23 +1,23 @@
 ##########################
 # Organizing stylesheets #
 ##########################
-// Base styles
+# Base styles
 @import "base/mixins"
 @import "base/reset"
 @import "base/grids"
 @import "base/spaces"
 @import "base/helper"
 
-// Layout specific styles
+# Layout specific styles
 @import "application/typography"
 @import "application/layout"
 
-// Objects
+# Objects
 @import "application/objects/buttons"
 @import "application/objects/inputs"
 .......................
 
-// Modules
+# Modules
 @import "application/modules/dashboard"
 @import "application/modules/profile"
 .......................
