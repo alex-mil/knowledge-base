@@ -22,7 +22,7 @@
 @import "application/modules/profile"
 .......................
 stylesheets
-  ├── base
+  ├── global
   │   ├── mixins.sass
   │   ├── reset.sass
   │   ├── grids.sass
@@ -32,7 +32,7 @@ stylesheets
   ├── application
   │   ├── layout.sass
   │   ├── typography.sass
-  │   ├── objects
+  │   ├── components
   │   |   ├── buttons.sass
   │   |   ├── inputs.sass
   |   |   └── ..........
