@@ -1,8 +1,11 @@
 - `git push <remote> <local branch name>:<remote branch to push into>`
 - `git pull <remote> <remote branch name>:<local branch name to push into>`
 - `git merge <branch-name> --squash` - *behaves like a real merge (except for the merge information), but do not actually make a commit or move the HEAD*
-- `git tag -d <tag>` - *removing a git tag*
+- `git branch --merged` - *branches are already merged in current active branch, e.g. master*
+- `git branch --no-merged`
 - `git branch -d <branch>` - *removing a git branch*
+- `git branch -D <branch>` - *removing not merged branch, abandoned stuff*
+- `git tag -d <tag>` - *removing a git tag*
 - `git push origin :<tag or branch>` - *deleting a tag or branch from Github*
 - `git push origin :refs/tags/<tag>` - *deleting a tag (with the same name as a branch) from Github*
 - `git push origin :refs/heads/<branch>` - *deleting a branch (with the same name as a tag) from Github*
