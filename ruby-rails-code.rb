@@ -1,3 +1,54 @@
+##########################
+# Organizing stylesheets #
+##########################
+// Base styles
+@import "base/mixins"
+@import "base/reset"
+@import "base/grids"
+@import "base/spaces"
+@import "base/helper"
+
+// Layout specific styles
+@import "application/typography"
+@import "application/layout"
+
+// Objects
+@import "application/objects/buttons"
+@import "application/objects/inputs"
+.......................
+
+// Modules
+@import "application/modules/dashboard"
+@import "application/modules/profile"
+.......................
+stylesheets
+  ├── base
+  │   ├── mixins.sass
+  │   ├── reset.sass
+  │   ├── grids.sass
+  │   ├── spaces.sass
+  │   └── helpers.scss
+  ├── application.sass
+  ├── application
+  │   ├── layout.sass
+  │   ├── typography.sass
+  │   ├── objects
+  │   |   ├── buttons.sass
+  │   |   ├── inputs.sass
+  |   |   └── ..........
+  │   ├── modules
+  │   |   ├── profile.sass
+  │   |   ├── dashboard.sass
+  |   |   └── ..........
+  │   └── responsive
+  │       ├── tablet.sass
+  │       ├── mobile.sass
+  |       └── ..........
+  └── shared
+      ├── popup.sass
+      ├── markdown.sass
+      └── ..........
+      
 ######################
 # with_options block #
 ######################
