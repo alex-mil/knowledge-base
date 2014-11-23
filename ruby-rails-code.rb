@@ -1,3 +1,8 @@
+#################################
+# List all available rake tasks #
+#################################
+rake -P # e.g. rake middleware
+
 ##########################
 # Organizing stylesheets #
 ##########################
