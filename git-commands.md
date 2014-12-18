@@ -12,4 +12,4 @@
 - `git branch -m old-name new-name` - *rename local branch*
 - `git push origin :old-branch-name` - *delete remote branch with old name*
 - `git push -u origin new-branch-name` - *create remote renamed branch and setup remote branch tracking (-u flag)*
-- `git rm -r --cached . && git add . && git commit -m ".gitignore is now working"` - *removes any changed files from the index(staging area)*
+- `git rm -r --cached . && git add . && git commit -m "apply .gitignore"` - *removes any changed files from the index(staging area)*
