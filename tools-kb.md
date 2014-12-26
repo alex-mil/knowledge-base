@@ -19,7 +19,8 @@
 - [**Rack-dev-mark**](https://github.com/dtaniwaki/rack-dev-mark) - marks development environment in order to differentiate from production.
 - [**Find Duplicates**](https://github.com/500tech/find_duplicates) - allows you to find duplicate models with same value for a column, e.g.: Find all users with the same first name.
 - [**Acts As Daterange**](https://github.com/500tech/acts_as_daterange) - useful for all models that have (optional) start date and end date (e.g. coupons, campaigns, orders, events, etc.)
-- [**Squasher**](https://github.com/jalkoby/squasher) - compresses old migrations in a Rails application.
+- [**Squasher**](https://github.com/jalkoby/squasher) - compresses old migrations in your application.
+- [**Starburst**](https://github.com/csm123/starburst) - show messages to logged in users within your application.
 
 
 ##### JavaScript
