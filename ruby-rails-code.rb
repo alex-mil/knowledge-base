@@ -1,3 +1,39 @@
+#############################
+# Decorators and Presenters #
+#############################
+# app/models/user.rb
+class User < ActiveRecord::Base
+  attr_accessible :first_name, :last_name, :age
+  
+  # ...
+  # many lines of code
+  # ...
+end
+
+# app/presenters/user_presenter.rb
+require 'delegate'
+class UserPresenter < SimpleDelegator
+  def full_name
+    "#{entity.first_name} #{entity.last_name}"
+  end
+  
+  def test
+  end
+  
+  # Returns ref to the object we're decorating
+  def entity
+    __getobj__
+  end
+end
+
+# app/controllers/users_controller.rb
+class UsersController < ApplicationController
+  def show
+    user_to_show = User.find(params[:id])
+    @user = UserPresenter.new(user_to_show)
+  end
+end
+
 #################################
 # List all available rake tasks #
 #################################
