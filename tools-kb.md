@@ -10,6 +10,7 @@
 - [**Devise-two-factor**](https://github.com/tinfoil/devise-two-factor) - a minimalist extension to Devise which offers support for two-factor authentication.
 - [**Datagrid**](https://github.com/bogdan/datagrid) - helps you to build and represent table-like data with columns and filters.
 - [**SmartListing**](https://github.com/Sology/smart_listing) - helps creating AJAX-enabled lists of ActiveRecord collections or arrays with pagination, filtering, sorting and in-place editing.
+- [**ActsAsList**](https://github.com/swanandp/acts_as_list) - sorting and reordering a number of objects in a list.
 - [**JsRoutes**](https://github.com/railsware/js-routes) - generates javascript file that defines all Rails named routes as javascript helpers.
 - [**AjaxSubmit**](https://github.com/bogdan/ajaxsubmit) - submit and validate complex forms (with or without nested) via Ajax.
 - [**Cocoon**](https://github.com/nathanvda/cocoon) - makes it easier to handle (add / remove) nested forms.
