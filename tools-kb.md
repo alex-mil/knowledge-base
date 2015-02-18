@@ -22,6 +22,7 @@
 - [**Acts As Daterange**](https://github.com/500tech/acts_as_daterange) - useful for all models that have (optional) start date and end date (e.g. coupons, campaigns, orders, events, etc.)
 - [**Squasher**](https://github.com/jalkoby/squasher) - compresses old migrations in your application.
 - [**Starburst**](https://github.com/csm123/starburst) - show messages to logged in users within your application.
+- [**Rails ERD**](https://github.com/voormedia/rails-erd) - generate Entity-Relationship Diagrams.
 
 
 ##### JavaScript
