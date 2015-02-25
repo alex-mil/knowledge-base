@@ -1,3 +1,9 @@
+###################################
+# Split a list into head and tail #
+###################################
+# list could be: [], ['a'], ['a', 'b', '1', 'd'] or even not an array
+first, *rest = *list
+
 #############################
 # Decorators and Presenters #
 #############################
