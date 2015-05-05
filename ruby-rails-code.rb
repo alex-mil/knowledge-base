@@ -1,3 +1,17 @@
+#######################
+# Enumerators of Ruby #
+#######################
+1. [Animal.new, Animal.new, Human.new, Human.new, Animal.new].partition { |c| c.is_animal? } # => Array of Arrays
+2. [Person.new("Peter"), Person.new("Meg"), Person.new("Louis")].each_with_object("Hello") do |person, greeter|
+  person.greet(greeter) # Hello Peter, Hello Meg, Hello Louis
+end
+3. [Product.new(100), Product.new(120), Product.new(1000)].max_by(&:price) 
+   # => #<Product:0x007fb019861228 @price=1000>
+4. [Product.new(100), Product.new(120), Product.new(1000)].minmax_by(&:price)
+   # => [#<Product:0x007fb01887a418 @price=100>, #<Product:0x007fb01887a3c8 @price=1000>]
+5. [Person.new, Person.new, Cop.new, Person.new].take_while(&:can_be_robbed?) # can_be_robbed? is a method
+   # =>[#<Person:0x007fa21a848848>, #<Person:0x007fa21a848820>]
+
 ###################################
 # Split a list into head and tail #
 ###################################
