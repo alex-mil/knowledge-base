@@ -1,5 +1,5 @@
 ##############################
-# ActiveRecord Optimizations #
+# ActiveRecord Optimisations #
 ##############################
 # 1. Use empty? or any? instead of blank? or present?.
 # 2. Never use map on active record relations, use pluck instead.
