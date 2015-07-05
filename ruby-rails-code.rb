@@ -1,3 +1,29 @@
+##############################
+# ActiveRecord Optimizations #
+##############################
+# 1. Use empty? or any? instead of blank? or present?.
+# 2. Never use map on active record relations, use pluck instead.
+# 3. If you're using pluck to pass values to a where use select instead.
+1.
+# will load the entire array, then check to see if the array is empty.
+User.where(screen_name: ['user1','user2']).blank?
+  vs.
+# asks the database for a count, and checks to see if that count is zero or not.
+User.where(screen_name: ['user1','user2').empty?
+2.
+# load the entire array, then iterate to collect the screen_names.
+User.where(email: ['jane@example.com', 'john@example.com']).map(&:screen_name)
+  vs.
+# asks the database for exactly what it needs and returns an array of just those items.
+User.where(email: ['jane@example.com', 'john@example.com']).pluck(:screen_name)
+3.
+# Using `select` with a `where`
+emails =  ['jane@example.com', 'john@example.com']
+User.where(screen_name: User.where(email: emails).select(:screen_name)).empty?
+# SELECT COUNT(*) FROM "users" WHERE "users"."screen_name" IN (
+#   SELECT "users"."screen_name" FROM "users" WHERE "users"."email" IN ('jane@example.com','john@example.com')
+# )
+
 #######################
 # Enumerators of Ruby #
 #######################
