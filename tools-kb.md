@@ -1,5 +1,4 @@
 ##### Ruby on Rails
-- [**Jazz hands**](https://github.com/nixme/jazz_hands) - an opinionated set of console-related gems and a bit of glue (not worked on ubuntu).
 - [**FiniteMachine**](https://github.com/peter-murach/finite_machine) - a minimal finite state machine with a straightforward and intuitive syntax.
 - [**Elastics**](https://github.com/printercu/elastics-rb) - simple ElasticSearch client.
 - [**Chewy**](https://github.com/toptal/chewy) - ODM and wrapper for official Elasticsearch client.
