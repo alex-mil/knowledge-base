@@ -24,6 +24,7 @@
 - [**Starburst**](https://github.com/csm123/starburst) - show messages to logged in users within your application.
 - [**Rails ERD**](https://github.com/voormedia/rails-erd) - generate Entity-Relationship Diagrams.
 - [**UI testing with RSpec and Capybara**](http://cheatrags.com/capybara)
+- [**Administrate**](https://github.com/thoughtbot/administrate) - A Rails engine for a super-flexible admin dashboard.
 
 
 ##### JavaScript
