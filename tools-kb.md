@@ -23,7 +23,7 @@
 - [**Starburst**](https://github.com/csm123/starburst) - show messages to logged in users within your application.
 - [**Rails ERD**](https://github.com/voormedia/rails-erd) - generate Entity-Relationship Diagrams.
 - [**Administrate**](https://github.com/thoughtbot/administrate) - a Rails engine for a super-flexible admin dashboard.
-- [**Ruby-thread**](https://github.com/meh/ruby-thread) - various extensions to the thread library in ruby.
+- [**Ruby-thread**](https://github.com/meh/ruby-thread) - various extensions to the thread library in Ruby.
 - [**Celluloid**](https://github.com/celluloid/celluloid) - actor-based concurrent object framework for Ruby.
 
 
